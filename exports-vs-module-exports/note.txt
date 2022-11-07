@@ -1,0 +1,4 @@
+The exports variable is available within a module's file-level scope, and is assigned the value of module.exports before the module is evaluated.
+
+It allows a shortcut, so that module.exports.f = ... can be written more succinctly as exports.f = .... However, be aware that like any variable, 
+if a new value is assigned to exports, it is no longer bound to module.exports:
