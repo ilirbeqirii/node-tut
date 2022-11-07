@@ -1,5 +1,5 @@
 {
-  "name": "node-tut-for-cjs",
+  "name": "node-tut-for-esm",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",

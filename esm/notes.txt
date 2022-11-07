@@ -1,0 +1,11 @@
+ECMAScript modules are the official standard format to package JavaScript code for reuse. Modules are defined using a variety of import and export statements.
+
+Authors can tell Node.js to use the ECMAScript modules loader via: 
+	- the .mjs file extension, 
+	- the package.json "type" field, or 
+	- the --input-type flag. 
+	
+Outside of those cases, Node.js will use the CommonJS module loader.
+
+-- import() expressions#
+	Dynamic import() is supported in both CommonJS and ES modules. In CommonJS modules it can be used to load ES modules.
