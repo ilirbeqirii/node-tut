@@ -1,0 +1,15 @@
+{
+	"name": "my-package",
+	"exports": {
+		".": "./index.js",
+		"./lib": "./lib/index.js",
+		"./lib/index": "./lib/index.js",
+		"./lib/index.js": "./lib/index.js",
+		"./feature": "./feature/index.js",
+		"./feature/index": "./feature/index.js",
+		"./feature/index.js": "./feature/index.js",
+		"./package.json": "./package.json",
+		"./lib/bar": "./lib/foo/bar.js",
+		"./feature/foo": "./lib/feature/foo.js"
+	}
+}

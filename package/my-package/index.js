@@ -1,0 +1,1 @@
+module.exports.name = 'my-package\'s entry point is called...';
