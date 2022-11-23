@@ -1,4 +1,4 @@
-const featureIndex = require('./my-package/feature');
+const featureIndex = require('./my-package/feature'); 
 const libIndex = require('./my-package/lib');
 const libBarIndex = require('./my-package/lib/bar');
 const featureFooIndex = require('./my-package/feature/foo');
